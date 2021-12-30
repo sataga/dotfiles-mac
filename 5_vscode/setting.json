@@ -1,0 +1,59 @@
+{
+    "editor.multiCursorModifier": "ctrlCmd",
+    "editor.formatOnPaste": true,
+    "git.autofetch": true,
+    "go.gocodeAutoBuild": true,
+    "go.gopath": "/Users/t-sataga/go",
+    "files.autoSave": "afterDelay",
+    "go.useLanguageServer": true,
+    "editor.lineHeight": 0,
+    "editor.renderLineHighlight": "all",
+    "editor.autoClosingBrackets": "always",
+    "editor.renderWhitespace": "boundary",
+    "editor.cursorBlinking": "smooth",
+    "editor.autoIndent": "brackets",
+    "terminal.external.osxExec": "iTerm.app",
+    "workbench.sideBar.location": "left",
+    "editor.minimap.enabled": false,
+    "files.insertFinalNewline": true,
+    "extensions.autoUpdate": true,
+    "window.openFilesInNewWindow": "off",
+    "window.showFullPath": true,
+    "explorer.confirmDelete": false,
+    "workbench.editor.swipeToNavigate": true,
+    "explorer.confirmDragAndDrop": false,
+    "breadcrumbs.enabled": true,
+    "workbench.iconTheme": "vscode-icons-mac",
+    "git.enableSmartCommit": true,
+    "diffEditor.ignoreTrimWhitespace": false,
+    "terminal.integrated.scrollback": 1000000,
+    "workbench.editor.enablePreview": false,
+    "liveServer.settings.donotShowInfoMsg": true,
+    "[go]": {
+        "editor.insertSpaces": false,
+        "editor.formatOnSave": true,
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": true
+        }
+    },
+    "editor.codeActionsOnSave": {
+        "source.fixAll.markdownlint": true
+    },
+    "terminal.integrated.fontFamily": "Source Code Pro for Powerline",
+    "vscodeGoogleTranslate.preferredLanguage": "ja",
+    "textlint.autoFixOnSave": true,
+    "terminal.integrated.shell.osx": "/bin/zsh",
+    "vsicons.projectDetection.autoReload": true,
+    "go.lintTool": "golangci-lint",
+    "go.delveConfig": {
+        "dlvLoadConfig": {
+            "followPointers": true,
+            "maxVariableRecurse": 1,
+            "maxStringLen": 10000,
+            "maxArrayValues": 500,
+            "maxStructFields": -1
+        }
+    },
+    "window.zoomLevel": -1,
+    "security.workspace.trust.untrustedFiles": "open"
+}
