@@ -1,19 +1,9 @@
-Dotfiles for Mac
+# Dotfiles for Mac
+
 ====
 
 thanks <https://github.com/zzzmisa/dotfiles-mac/>
 thanks <https://github.com/takameron/dotfiles-mac>
-
-## 実行されること
-
-* homebrewを用いたパッケージのインストール
-* asdfを用いたCLIツールのインストール
-* macOSの設定
-* Git・Vim・VS Code・Zshの設定
-
-## 動作確認環境
-
-* macOS Catalina 10.15.7
 
 ## 事前準備
 
@@ -25,13 +15,13 @@ thanks <https://github.com/takameron/dotfiles-mac>
 
 1. `dotfiles-mac`ディレクトリに移動
 
-    ```
+    ```sh
     cd dotfiles-mac
     ```
 
 2. ディレクトリ直下の`install.sh`を実行すると、下層ディレクトリの`install.sh`が実行される
 
-    ```
+    ```sh
     sh install.sh
     ```
 
@@ -42,9 +32,3 @@ thanks <https://github.com/takameron/dotfiles-mac>
 * Git
   * **ユーザー名・メールアドレスを変更**
   * GPGの設定
-
-## License
-
-These codes are licensed under CC0.
-
-[![CC0](https://i.creativecommons.org/p/zero/1.0/88x31.png "CC0")](https://creativecommons.org/publicdomain/zero/1.0/deed.ja)
