@@ -8,8 +8,10 @@ if ! (type code > /dev/null 2>&1); then
   brew install --cask visual-studio-code
 fi
 
-# settings.jsonの設置
-ln -sfv "$PWD"/vscode/settings.json ~/Library/Application\ Support/Code/User/
+# jsonファイルの設置
+cp -i "$PWD"/vscode/settings.json ~/Library/Application\ Support/Code/User/
+                    setting.json
+cp -i "$PWD"/vscode/keybindings.json ~/Library/Application\ Support/Code/User/
 
 # プラグインのインストール
 pkglist=(

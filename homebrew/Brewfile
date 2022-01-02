@@ -1,4 +1,4 @@
 brew "tree"
 brew "shellcheck"
-
+brew "zplug"
 cask "zoom"

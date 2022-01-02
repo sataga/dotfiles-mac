@@ -1,0 +1,120 @@
+// 既定値を上書きするには、このファイル内にキー バインドを挿入しますauto[]
+[
+    {
+        "key": "ctrl+tab",
+        "command": "text-tables.gotoNextCell",
+        "when": "tableMode"
+    },
+    {
+        "key": "tab",
+        "command": "-text-tables.gotoNextCell",
+        "when": "tableMode"
+    },
+    {
+        "key": "ctrl+shift+tab",
+        "command": "text-tables.gotoPreviousCell",
+        "when": "tableMode"
+    },
+    {
+        "key": "shift+tab",
+        "command": "-text-tables.gotoPreviousCell",
+        "when": "tableMode"
+    },
+    {
+        "key": "ctrl+shift+tab",
+        "command": "workbench.action.previousEditor"
+    },
+    {
+        "key": "ctrl+pageup",
+        "command": "-workbench.action.previousEditor"
+    },
+    {
+        "key": "ctrl+tab",
+        "command": "workbench.action.nextEditor"
+    },
+    {
+        "key": "ctrl+pagedown",
+        "command": "-workbench.action.nextEditor"
+    },
+    {
+        "key": "cmd+enter",
+        "command": "workbench.action.terminal.focus"
+    },
+    {
+        "key": "cmd+enter",
+        "command": "workbench.action.focusActiveEditorGroup",
+        "when": "terminalFocus"
+    },
+    {
+        "key": "shift+cmd+enter",
+        "command": "editor.action.replaceAll",
+        "when": "editorFocus && findWidgetVisible && replaceInputFocussed"
+    },
+    {
+        "key": "cmd+enter",
+        "command": "-editor.action.replaceAll",
+        "when": "editorFocus && findWidgetVisible && replaceInputFocussed"
+    },
+    {
+        "key": "alt+cmd+enter",
+        "command": "scm.acceptInput",
+        "when": "scmRepository"
+    },
+    {
+        "key": "cmd+enter",
+        "command": "-scm.acceptInput",
+        "when": "scmRepository"
+    },
+    {
+        "key": "shift+alt+s",
+        "command": "extension.translateTextPreferred"
+    },
+    {
+        "key": "alt+cmd+p",
+        "command": "git.push"
+    },
+    {
+        "key": "cmd+]",
+        "command": "workbench.action.focusRightGroup"
+    },
+    {
+        "key": "cmd+k cmd+right",
+        "command": "-workbench.action.focusRightGroup"
+    },
+    {
+        "key": "cmd+[",
+        "command": "workbench.action.focusLeftGroup"
+    },
+    {
+        "key": "cmd+k cmd+left",
+        "command": "-workbench.action.focusLeftGroup"
+    },
+    {
+        "key": "shift+cmd+b",
+        "command": "workbench.action.quickOpenNavigateNext",
+        "when": "inQuickOpen"
+    },
+    {
+        "key": "cmd+b",
+        "command": "-workbench.action.quickOpenNavigateNext",
+        "when": "inQuickOpen"
+    },
+    {
+        "key": "shift+cmd+b",
+        "command": "markdown.extension.editing.toggleBold",
+        "when": "editorTextFocus && !editorReadonly && editorLangId == 'markdown'"
+    },
+    {
+        "key": "cmd+b",
+        "command": "-markdown.extension.editing.toggleBold",
+        "when": "editorTextFocus && !editorReadonly && editorLangId == 'markdown'"
+    },
+    {
+        "key": "shift+cmd+b",
+        "command": "workbench.action.showAllEditors"
+    },
+    {
+        "key": "cmd+b",
+        "command": "-workbench.action.showAllEditors"
+    }
+]
